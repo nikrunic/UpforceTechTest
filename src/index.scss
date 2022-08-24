@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root{
+    --bs-body-font-family: 'Poppins', sans-serif;
+    --text-color:#dee4fa;
+}
+html{
+    font-size: 14px;
+    @media (max-width:480px) {
+        font-size: 12px;
+    }
+}
+body{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.toast{
+    background-color: #10ff8d;
+    color: #242424;
+    font-weight: 500;
+}
