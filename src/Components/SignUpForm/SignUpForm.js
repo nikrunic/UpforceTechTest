@@ -21,7 +21,7 @@ export const SignUpForm = ({ tabKey }) => {
   const [agreement, setAgreement] = useState(false);
   const [message, setMessage] = useState();
   const [show, setShow] = useState(false);
-  const api = "http://wren.in:3200/api/sign-up";
+  const api = "https://wren.in:3200/api/sign-up";
 
   const {
     register,
