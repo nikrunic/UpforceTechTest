@@ -21,7 +21,7 @@ export const SignUpForm = ({ tabKey }) => {
   const [agreement, setAgreement] = useState(false);
   const [message, setMessage] = useState();
   const [show, setShow] = useState(false);
-  const api = "https://wren.in:3200/api/sign-up";
+  const api = "http://wren.in:3200/api/sign-up";
 
   const {
     register,
@@ -41,11 +41,11 @@ export const SignUpForm = ({ tabKey }) => {
           })
           .catch((error) => {
             setShow(true);
-            setMessage("Please try again later");
+            setMessage("oops! there is something wrong with the system. please contact our team at support@UpforceTech.com");
           });
       } else {
         setShow(true);
-        setMessage("Please try again later");
+        setMessage("oops! there is something wrong with the system. please contact our team at support@UpforceTech.com");
       }
     } catch (error) {}
   };
